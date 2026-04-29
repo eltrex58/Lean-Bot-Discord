@@ -1,0 +1,264 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.8.0
+2 info using node@v23.11.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/container/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm install
+7 verbose argv "install"
+8 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2026-02-05T16_11_43_141Z-
+9 verbose logfile /home/container/.npm/_logs/2026-02-05T16_11_43_141Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:1740111872 maxSize:435027968 maxEntrySize:217513984
+12 silly idealTree buildDeps
+13 silly reify moves {}
+14 silly audit bulk request {
+14 silly audit   '@discordjs/builders': [ '1.10.0' ],
+14 silly audit   '@discordjs/collection': [ '2.1.1', '1.5.3' ],
+14 silly audit   '@discordjs/formatters': [ '0.6.0' ],
+14 silly audit   '@discordjs/rest': [ '2.4.2' ],
+14 silly audit   '@discordjs/util': [ '1.1.1' ],
+14 silly audit   '@discordjs/ws': [ '1.2.0' ],
+14 silly audit   '@mongodb-js/saslprep': [ '1.1.9' ],
+14 silly audit   '@sapphire/async-queue': [ '1.5.5' ],
+14 silly audit   '@sapphire/shapeshift': [ '4.0.0' ],
+14 silly audit   '@sapphire/snowflake': [ '3.5.5', '3.5.3' ],
+14 silly audit   '@types/node': [ '22.10.5' ],
+14 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+14 silly audit   '@types/whatwg-url': [ '11.0.5' ],
+14 silly audit   '@types/ws': [ '8.5.13' ],
+14 silly audit   '@vladfrangu/async_event_emitter': [ '2.4.6' ],
+14 silly audit   accepts: [ '1.3.8' ],
+14 silly audit   'array-flatten': [ '1.1.1' ],
+14 silly audit   'body-parser': [ '1.20.3' ],
+14 silly audit   'http-errors': [ '2.0.0', '1.6.3' ],
+14 silly audit   inherits: [ '2.0.4', '2.0.3' ],
+14 silly audit   'on-finished': [ '2.4.1', '2.3.0' ],
+14 silly audit   bson: [ '6.10.1' ],
+14 silly audit   bufferutil: [ '4.0.9' ],
+14 silly audit   bytes: [ '3.1.2' ],
+14 silly audit   'call-bind-apply-helpers': [ '1.0.1' ],
+14 silly audit   'call-bound': [ '1.0.3' ],
+14 silly audit   'connect-timeout': [ '1.9.0' ],
+14 silly audit   'content-disposition': [ '0.5.4' ],
+14 silly audit   'content-type': [ '1.0.5' ],
+14 silly audit   cookie: [ '0.7.2', '0.7.1' ],
+14 silly audit   'cookie-parser': [ '1.4.7' ],
+14 silly audit   'cookie-signature': [ '1.0.6' ],
+14 silly audit   cors: [ '2.8.5' ],
+14 silly audit   debug: [ '2.6.9', '4.4.0' ],
+14 silly audit   depd: [ '2.0.0', '1.1.2' ],
+14 silly audit   destroy: [ '1.2.0' ],
+14 silly audit   'discord-api-types': [ '0.37.115' ],
+14 silly audit   'discord.js': [ '14.17.3' ],
+14 silly audit   dotenv: [ '16.4.7' ],
+14 silly audit   'dunder-proto': [ '1.0.1' ],
+14 silly audit   'ee-first': [ '1.1.1' ],
+14 silly audit   encodeurl: [ '2.0.0', '1.0.2' ],
+14 silly audit   'es-define-property': [ '1.0.1' ],
+14 silly audit   'es-errors': [ '1.3.0' ],
+14 silly audit   'es-object-atoms': [ '1.0.0' ],
+14 silly audit   'escape-html': [ '1.0.3' ],
+14 silly audit   etag: [ '1.8.1' ],
+14 silly audit   express: [ '4.21.2' ],
+14 silly audit   'express-async-errors': [ '3.1.1' ],
+14 silly audit   'fast-deep-equal': [ '3.1.3' ],
+14 silly audit   finalhandler: [ '1.3.1' ],
+14 silly audit   forwarded: [ '0.2.0' ],
+14 silly audit   fresh: [ '0.5.2' ],
+14 silly audit   'function-bind': [ '1.1.2' ],
+14 silly audit   'get-intrinsic': [ '1.2.7' ],
+14 silly audit   'get-proto': [ '1.0.1' ],
+14 silly audit   gopd: [ '1.2.0' ],
+14 silly audit   'has-symbols': [ '1.1.0' ],
+14 silly audit   hasown: [ '2.0.2' ],
+14 silly audit   setprototypeof: [ '1.1.0', '1.2.0' ],
+14 silly audit   statuses: [ '1.5.0', '2.0.1' ],
+14 silly audit   'iconv-lite': [ '0.4.24' ],
+14 silly audit   install: [ '0.13.0' ],
+14 silly audit   'ipaddr.js': [ '1.9.1' ],
+14 silly audit   kareem: [ '2.6.3' ],
+14 silly audit   lodash: [ '4.17.21' ],
+14 silly audit   'lodash.snakecase': [ '4.1.1' ],
+14 silly audit   'magic-bytes.js': [ '1.10.0' ],
+14 silly audit   'math-intrinsics': [ '1.1.0' ],
+14 silly audit   'media-typer': [ '0.3.0' ],
+14 silly audit   'memory-pager': [ '1.5.0' ],
+14 silly audit   'merge-descriptors': [ '1.0.3' ],
+14 silly audit   methods: [ '1.1.2' ],
+14 silly audit   mime: [ '1.6.0' ],
+14 silly audit   'mime-db': [ '1.52.0' ],
+14 silly audit   'mime-types': [ '2.1.35' ],
+14 silly audit   mongodb: [ '6.12.0' ],
+14 silly audit   'mongodb-connection-string-url': [ '3.0.1' ],
+14 silly audit   mongoose: [ '8.9.4' ],
+14 silly audit   ms: [ '2.1.3', '2.0.0' ],
+14 silly audit   mpath: [ '0.9.0' ],
+14 silly audit   mquery: [ '5.0.0' ],
+14 silly audit   nan: [ '2.22.0' ],
+14 silly audit   negotiator: [ '0.6.3' ],
+14 silly audit   'node-gyp-build': [ '4.8.4' ],
+14 silly audit   'object-assign': [ '4.1.1' ],
+14 silly audit   'object-inspect': [ '1.13.3' ],
+14 silly audit   'on-headers': [ '1.0.2' ],
+14 silly audit   ordinal: [ '1.0.3' ],
+14 silly audit   parseurl: [ '1.3.3' ],
+14 silly audit   'path-to-regexp': [ '0.1.12' ],
+14 silly audit   'proxy-addr': [ '2.0.7' ],
+14 silly audit   punycode: [ '2.3.1' ],
+14 silly audit   qs: [ '6.13.0' ],
+14 silly audit   'range-parser': [ '1.2.1' ],
+14 silly audit   'raw-body': [ '2.5.2' ],
+14 silly audit   'safe-buffer': [ '5.2.1' ],
+14 silly audit   'safer-buffer': [ '2.1.2' ],
+14 silly audit   send: [ '0.19.0' ],
+14 silly audit   'serve-static': [ '1.16.2' ],
+14 silly audit   'side-channel': [ '1.1.0' ],
+14 silly audit   'side-channel-list': [ '1.0.0' ],
+14 silly audit   'side-channel-map': [ '1.0.1' ],
+14 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+14 silly audit   sift: [ '17.1.3' ],
+14 silly audit   'sparse-bitfield': [ '3.0.3' ],
+14 silly audit   toidentifier: [ '1.0.1' ],
+14 silly audit   tr46: [ '4.1.1' ],
+14 silly audit   'ts-mixer': [ '6.0.4' ],
+14 silly audit   tslib: [ '2.8.1' ],
+14 silly audit   'type-is': [ '1.6.18' ],
+14 silly audit   undici: [ '6.19.8' ],
+14 silly audit   'undici-types': [ '6.20.0' ],
+14 silly audit   unpipe: [ '1.0.0' ],
+14 silly audit   'utf-8-validate': [ '6.0.5' ],
+14 silly audit   'utils-merge': [ '1.0.1' ],
+14 silly audit   vary: [ '1.1.2' ],
+14 silly audit   'webidl-conversions': [ '7.0.0' ],
+14 silly audit   'whatwg-url': [ '13.0.0' ],
+14 silly audit   ws: [ '8.18.0' ],
+14 silly audit   'zlib-sync': [ '0.1.9' ]
+14 silly audit }
+15 http fetch GET 200 https://registry.npmjs.org/npm 194ms
+16 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1055ms
+17 silly audit report {
+17 silly audit report   lodash: [
+17 silly audit report     {
+17 silly audit report       id: 1112455,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-xxjr-mmjv-4gpg',
+17 silly audit report       title: 'Lodash has Prototype Pollution Vulnerability in `_.unset` and `_.omit` functions',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '>=4.0.0 <=4.17.22',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ],
+17 silly audit report   mongoose: [
+17 silly audit report     {
+17 silly audit report       id: 1101840,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-vg7j-7cwx-8wgw',
+17 silly audit report       title: 'Mongoose search injection vulnerability',
+17 silly audit report       severity: 'critical',
+17 silly audit report       vulnerable_versions: '>=8.0.0-rc0 <8.9.5',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ],
+17 silly audit report   'on-headers': [
+17 silly audit report     {
+17 silly audit report       id: 1106812,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-76c9-3jph-rj3q',
+17 silly audit report       title: 'on-headers is vulnerable to http response header manipulation',
+17 silly audit report       severity: 'low',
+17 silly audit report       vulnerable_versions: '<1.1.0',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ],
+17 silly audit report   qs: [
+17 silly audit report     {
+17 silly audit report       id: 1111755,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-6rw7-vpxm-498p',
+17 silly audit report       title: "qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion",
+17 silly audit report       severity: 'high',
+17 silly audit report       vulnerable_versions: '<6.14.1',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ],
+17 silly audit report   undici: [
+17 silly audit report     {
+17 silly audit report       id: 1101609,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-c76h-2ccp-4975',
+17 silly audit report       title: 'Use of Insufficiently Random Values in undici',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '>=6.0.0 <6.21.1',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1104500,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-cxrh-j4jr-qwg3',
+17 silly audit report       title: 'undici Denial of Service attack via bad certificate data',
+17 silly audit report       severity: 'low',
+17 silly audit report       vulnerable_versions: '>=6.0.0 <6.21.2',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     },
+17 silly audit report     {
+17 silly audit report       id: 1112496,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-g9mf-h72j-4rw9',
+17 silly audit report       title: 'Undici has an unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resource exhaustion',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '<6.23.0',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ]
+17 silly audit report }
+18 silly packumentCache corgi:https://registry.npmjs.org/lodash cache-miss
+19 silly packumentCache corgi:https://registry.npmjs.org/mongoose cache-miss
+20 silly packumentCache corgi:https://registry.npmjs.org/on-headers cache-miss
+21 silly packumentCache corgi:https://registry.npmjs.org/qs cache-miss
+22 silly packumentCache corgi:https://registry.npmjs.org/undici cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/lodash 52ms (cache revalidated)
+24 silly packumentCache corgi:https://registry.npmjs.org/lodash set size:68481 disposed:false
+25 http fetch GET 200 https://registry.npmjs.org/qs 68ms (cache revalidated)
+26 silly packumentCache corgi:https://registry.npmjs.org/qs set size:111251 disposed:false
+27 http fetch GET 200 https://registry.npmjs.org/on-headers 77ms (cache revalidated)
+28 silly packumentCache corgi:https://registry.npmjs.org/on-headers set size:4386 disposed:false
+29 http fetch GET 200 https://registry.npmjs.org/undici 77ms (cache updated)
+30 silly packumentCache corgi:https://registry.npmjs.org/undici set size:undefined disposed:false
+31 http fetch GET 200 https://registry.npmjs.org/mongoose 103ms (cache updated)
+32 silly packumentCache corgi:https://registry.npmjs.org/mongoose set size:undefined disposed:false
+33 silly packumentCache corgi:https://registry.npmjs.org/@sapphire%2fshapeshift cache-miss
+34 http fetch GET 200 https://registry.npmjs.org/@sapphire%2fshapeshift 56ms (cache revalidated)
+35 silly packumentCache corgi:https://registry.npmjs.org/@sapphire%2fshapeshift set size:1051334 disposed:false
+36 silly packumentCache corgi:https://registry.npmjs.org/connect-timeout cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/connect-timeout 33ms (cache revalidated)
+38 silly packumentCache corgi:https://registry.npmjs.org/connect-timeout set size:12786 disposed:false
+39 silly packumentCache corgi:https://registry.npmjs.org/body-parser cache-miss
+40 silly packumentCache corgi:https://registry.npmjs.org/express cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/body-parser 25ms (cache revalidated)
+42 silly packumentCache corgi:https://registry.npmjs.org/body-parser set size:77795 disposed:false
+43 http fetch GET 200 https://registry.npmjs.org/express 34ms (cache revalidated)
+44 silly packumentCache corgi:https://registry.npmjs.org/express set size:337735 disposed:false
+45 silly packumentCache corgi:https://registry.npmjs.org/@discordjs%2frest cache-miss
+46 silly packumentCache corgi:https://registry.npmjs.org/discord.js cache-miss
+47 http fetch GET 200 https://registry.npmjs.org/discord.js 119ms (cache updated)
+48 silly packumentCache corgi:https://registry.npmjs.org/discord.js set size:undefined disposed:false
+49 http fetch GET 200 https://registry.npmjs.org/@discordjs%2frest 205ms (cache updated)
+50 silly packumentCache corgi:https://registry.npmjs.org/@discordjs%2frest set size:undefined disposed:false
+51 silly packumentCache corgi:https://registry.npmjs.org/express-async-errors cache-miss
+52 http fetch GET 200 https://registry.npmjs.org/express-async-errors 29ms (cache revalidated)
+53 silly packumentCache corgi:https://registry.npmjs.org/express-async-errors set size:7888 disposed:false
+54 silly packumentCache corgi:https://registry.npmjs.org/@discordjs%2fws cache-miss
+55 http fetch GET 200 https://registry.npmjs.org/@discordjs%2fws 722ms (cache updated)
+56 silly packumentCache corgi:https://registry.npmjs.org/@discordjs%2fws set size:undefined disposed:false
+57 verbose cwd /home/container
+58 verbose os Linux 6.14.0-1017-azure
+59 verbose node v23.11.1
+60 verbose npm  v11.8.0
+61 notice
+61 notice New [33mminor[39m version of npm available! [33m11.8.0[39m -> [34m11.9.0[39m
+61 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.9.0[39m
+61 notice To update run: [4mnpm install -g npm@11.9.0[24m
+61 notice  { force: true, [Symbol(proc-log.meta)]: true }
+62 verbose exit 0
+63 info ok

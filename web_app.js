@@ -287,7 +287,6 @@ function validateSetting(val, setting, guildData={}) {
 }
 
 app.post("/api/settings", async function(req, res) {
-    
     if (typeof req.body != "object") return res.apiError("Invalid save data!");
     let guildID = req.body.guildID
     if (!guildID) return res.apiError("No guild ID!");

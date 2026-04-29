@@ -6,8 +6,8 @@
   "lockBotToDevOnly": false,
   
   "enableWebServer": true,
-  "serverPort": 6880,
-  "siteURL": "http://localhost:6880",
+  "serverPort": 24706,
+  "siteURL": "http://lean.hidenfree.com:24706",
   
   "changelogURL": "",
   "supportURL": ""
